@@ -6,6 +6,10 @@
 
     <persistence-unit name="hello">
         <class>io.devlabs.jpa.entity.Member</class>
+        <class>io.devlabs.jpa.entity.Order</class>
+        <class>io.devlabs.jpa.entity.Item</class>
+        <class>io.devlabs.jpa.entity.Shoes</class>
+        <class>io.devlabs.jpa.entity.OrderItem</class>
         <properties>
             <!-- 필수 속성 -->
             <property name="jakarta.persistence.jdbc.driver" value="org.h2.Driver"/>
